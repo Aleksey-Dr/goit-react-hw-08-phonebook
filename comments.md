@@ -26,3 +26,9 @@ III. Adding and configuring basic tools
 11. npm i react-loader-spinner.
 
 IV. Copied all from goit-react-hw-07-phonebook
+
+V. Added Rowter.
+1. react-router-dom.
+2. Added <BrowserRouter> to the index.js of "src" folder.
+3. npm i @chakra-ui/input.
+4. npm i @chakra-ui/react @emotion/react @emotion/styled framer-motion.

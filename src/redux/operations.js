@@ -3,6 +3,15 @@ import { createAsyncThunk } from "@reduxjs/toolkit";
 
 axios.defaults.baseURL = "https://648966bd5fa58521caaf88bb.mockapi.io";
 
+export const register = createAsyncThunk("auth/regaster", async credentials => {
+  try {
+    const { data } = await axios.post("/users/signup", credentials);
+    return data;
+  } catch (error) {
+
+  }
+})
+
 export const fetchContacts = createAsyncThunk("contacts/fetchAll", async (_, thunkAPI) => {
     try {
         const response = await axios.get("/contacts");
