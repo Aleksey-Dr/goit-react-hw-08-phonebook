@@ -38,3 +38,5 @@ VI. Added registeration
 VII. Added signin
 
 VIII. Added a logic of show navigations
+
+IX. Added logout
