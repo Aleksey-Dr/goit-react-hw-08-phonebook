@@ -40,3 +40,7 @@ VII. Added signin
 VIII. Added a logic of show navigations
 
 IX. Added logout
+
+X. Settinged fetchContacts, addContact, deleteContact
+
+XI. Added saved to Local Storage

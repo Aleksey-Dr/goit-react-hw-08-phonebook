@@ -40,7 +40,7 @@ const contactsSlice = createSlice({
         !includesName &&
           state.items.push({
               name: action.payload.name,
-              phone: action.payload.number,
+              number: action.payload.number,
               id: action.payload.id,
             });
       })

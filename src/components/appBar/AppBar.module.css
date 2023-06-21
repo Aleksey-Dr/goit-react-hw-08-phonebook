@@ -1,6 +1,7 @@
 .hat {
     display: flex;
     border-bottom: solid 1px;
+    border-color: #212121;
 }
 
 .nav {
