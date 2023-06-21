@@ -10,7 +10,16 @@ export const register = createAsyncThunk("auth/regaster", async credentials => {
   } catch (error) {
 
   }
-})
+});
+
+export const logIn = createAsyncThunk("auth/login", async credentials => {
+  try {
+    const { data } = await axios.post("/users/login", credentials);
+    return data;
+  } catch (error) {
+
+  }
+});
 
 export const fetchContacts = createAsyncThunk("contacts/fetchAll", async (_, thunkAPI) => {
     try {
