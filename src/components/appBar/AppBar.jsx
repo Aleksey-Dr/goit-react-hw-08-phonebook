@@ -1,6 +1,8 @@
 import { Suspense } from 'react';
 import { NavLink, Outlet, useLocation } from "react-router-dom";
 
+import UserMenu from '../userMenu';
+
 import clsx from 'clsx';
 import css from './AppBar.module.css';
 
@@ -10,7 +12,8 @@ const AppBar = () => {
     return (
         <>
             <header>
-                <nav className={clsx(css.nav)}>
+                <div className={clsx(css.hat)}>
+                    <nav className={clsx(css.nav)}>
                     <NavLink
                         className={location.pathname !== "/"
                             ? clsx(css.btn)
@@ -40,6 +43,8 @@ const AppBar = () => {
                         Contacts
                     </NavLink>
                 </nav>
+                <UserMenu />
+                </div>
             </header>
             <main>
                 <Suspense>

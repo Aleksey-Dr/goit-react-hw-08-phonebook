@@ -1,12 +1,15 @@
-.nav {
+.hat {
     display: flex;
-    height: 48px;
-    margin-bottom: 16px;
     border-bottom: solid 1px;
 }
 
+.nav {
+    display: flex;
+    height: 48px;
+}
+
 .nav :not(:last-child) {
-    margin-right: 18px;
+    margin-right: 24px;
 }
 
 .btn {

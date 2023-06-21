@@ -1,0 +1,18 @@
+.user-menu {
+    display: flex;
+    margin-left: auto;
+    color: #212121;
+    font-size: 24px;
+    font-style: italic;
+}
+
+.btn {
+    width: 108px;
+    height: 38px;
+    margin-left: 24px;
+    border: none;
+    background-color: #3f51b5;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 24px;
+}

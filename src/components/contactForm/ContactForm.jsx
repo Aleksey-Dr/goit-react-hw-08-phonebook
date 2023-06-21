@@ -1,12 +1,12 @@
-import { useDispatch, useSelector } from "react-redux";
-
 import { useState } from 'react';
+import { useDispatch, useSelector } from "react-redux";
 
 import clsx from 'clsx';
 import css from './ContactForm.module.css';
 
 import { addContact } from '../../redux/operations';
 import { selectItems } from '../../redux/selectors';
+import Title from "../title";
 
 const ContactForm = () => {
 
@@ -50,7 +50,7 @@ const ContactForm = () => {
 
   return (
     <>
-      <h2>Phonebook</h2>
+      <Title>Phonebook</Title>
       <form className={clsx(css.form)} onSubmit={handleSubmit}>
         <label htmlFor={name}>
           Name

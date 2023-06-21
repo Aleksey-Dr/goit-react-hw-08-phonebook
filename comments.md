@@ -32,3 +32,5 @@ V. Added Rowter.
 2. Added <BrowserRouter> to the index.js of "src" folder.
 3. npm i @chakra-ui/input.
 4. npm i @chakra-ui/react @emotion/react @emotion/styled framer-motion.
+
+VI. Added registeration

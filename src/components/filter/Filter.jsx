@@ -16,7 +16,7 @@ const Filter = () => {
     return (
         <>
             <h3>Contacts</h3>
-            <label>Find contacts by name
+            <label className={clsx(css.labl)}>Find contacts by name
                 <input className={clsx(css['filter-input'])}
                     type="text"
                     onChange={filterValue}
