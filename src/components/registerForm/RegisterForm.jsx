@@ -4,7 +4,7 @@ import { useDispatch } from "react-redux";
 import clsx from 'clsx';
 import css from './RegisterForm.module.css';
 
-import Title from 'components/title';
+import Title from '../title';
 import { register } from '../../redux/operations';
 
 const RegisterForm = () => {

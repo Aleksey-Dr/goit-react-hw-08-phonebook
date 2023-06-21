@@ -1,6 +1,6 @@
 import clsx from 'clsx';
 import css from './LoginForm.module.css';
-import Title from 'components/title';
+import Title from '../title';
 
 const LoginForm = () => {
     return (

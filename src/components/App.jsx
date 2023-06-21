@@ -1,10 +1,10 @@
 import { Routes, Route } from 'react-router-dom';
 import Container from './container';
 import AppBar from './appBar/AppBar';
-import Home from 'pages/home';
+import Home from '../pages/home';
 import Register from './../pages/register';
 import Login from './../pages/login';
-import Contacts from 'pages/contacts';
+import Contacts from '../pages/contacts';
 
 export const App = () => {
 
