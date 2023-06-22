@@ -1,6 +1,8 @@
 import { useEffect } from 'react';
-
 import { useDispatch, useSelector } from 'react-redux';
+
+import clsx from 'clsx';
+import css from './ContactList.module.css';
 
 import ContactsItem from '../contactsItem';
 import Loader from '../loader';
@@ -28,7 +30,7 @@ const ContactList = () => {
     <div>
       {isLoading && <Loader />}
       {error && <p><b>Error: </b>{error}</p>}
-      <ul>
+      <ul className={clsx(css.list)}>
         {filterContacts.map(({ id, name, number }) => {
           return <ContactsItem key={id} id={id} name={name} number={number} />;
         })}

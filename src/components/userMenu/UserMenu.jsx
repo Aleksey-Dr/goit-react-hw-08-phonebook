@@ -3,12 +3,12 @@ import { useDispatch, useSelector } from "react-redux";
 import clsx from 'clsx';
 import css from './UserMenu.module.css';
 
-import { selectUserName } from '../../redux/selectors'
+import { selectUserEmail } from '../../redux/selectors'
 import { logOut } from '../../redux/operations';
 
 const UserMenu = () => {
     const despatch = useDispatch();
-    const email = useSelector(selectUserName);
+    const email = useSelector(selectUserEmail);
 
     return (
         <div className={clsx(css["user-menu"])}>
