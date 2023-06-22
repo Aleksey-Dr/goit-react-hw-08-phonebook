@@ -44,3 +44,5 @@ IX. Added logout
 X. Settinged fetchContacts, addContact, deleteContact
 
 XI. Added saved to Local Storage
+
+Fixed the "fetchCurrentUser" of the "operations"

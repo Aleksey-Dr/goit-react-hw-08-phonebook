@@ -12,7 +12,7 @@ import css from './AppBar.module.css';
 
 const AppBar = () => {
     const location = useLocation();
-    const isLoggedIn = useSelector(selectIsLoggedIn);
+  const isLoggedIn = useSelector(selectIsLoggedIn);
 
   return (
     <>
@@ -20,9 +20,9 @@ const AppBar = () => {
         <div className={clsx(css.hat)}>
           <Navigation />
 
-          {isLoggedIn ? (
+          {isLoggedIn ? 
             <UserMenu />
-          ) : (
+           : (
             <nav className={clsx(css.nav)}>
               <NavLink
                 className={
