@@ -50,3 +50,7 @@ Fixed the "fetchCurrentUser" of the "operations"
 XII. Added privates and publics pathis
 
 XIII. Outbreaks excluded
+
+Fixed
+1. Fixed styles.
+2. Changed show "email" to "name" in the "UserMenu".
